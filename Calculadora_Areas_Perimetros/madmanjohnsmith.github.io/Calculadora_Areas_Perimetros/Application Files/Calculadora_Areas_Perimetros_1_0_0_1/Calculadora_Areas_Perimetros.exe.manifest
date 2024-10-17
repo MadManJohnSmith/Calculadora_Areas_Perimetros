@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calculadora_Areas_Perimetros.exe" version="1.0.0.1" publicKeyToken="b424451d48a033cb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calculadora_Areas_Perimetros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calculadora_Areas_Perimetros.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculadora_Areas_Perimetros.exe" size="67496">
+      <assemblyIdentity name="Calculadora_Areas_Perimetros" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>L0yYfvmuMOIbyj3nYCS6RkWDc1si87u70KMR3Lxp3Co=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calculadora_Areas_Perimetros.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MOODY\alan0" issuerKeyHash="15acc38b001ee4e251c91bde2810fb7eb5fb0666" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ALka3TNgJbymu4uP6h3dFyXYxjAdo5C3S1F+CSb5S1w=</DigestValue></Reference></SignedInfo><SignatureValue>qXPUKrDL7AHM4jpdVjEWVaMWN/sd7zbtS9VIc7S/innkYcDjOgIIlouZ8N98rxzQIT7Mcxmv5SDUyupddE7gY6x1e/Hl51sDSvdc7ayNTA1EOqgG4xO0/C7U6E7u9B4XQs5UJ8CGQ5G6ri0J3WZC7ZFfYroTtk2zBfXMhBbWXDI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rSVEq1itYuVpR1l+wEnJ1TjLJLBddHYGvKoYS3lmTDd63YvECfLKh7Ge9P6LybfGDeAi9Op5YXaYoHqk5Y2Zy03PnVI6psoWhzgIm5GDs2shqZYTNBSqh9NvYHUliH4CqN+iVkqciJwkVEsEPDfrYPyWcLIVbR6PHCkNx6faVt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5c4bf926097e514bb790a31d30c6d82517dd1dea8f8bbba6bc256033dd1ab900" Description="" Url=""><as:assemblyIdentity name="Calculadora_Areas_Perimetros.exe" version="1.0.0.1" publicKeyToken="b424451d48a033cb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MOODY\alan0</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pe4YWf4QPZNTRlXG43be8DQiW23CMryTs0zcMBDNUqo=</DigestValue></Reference></SignedInfo><SignatureValue>NDHAkWXAiKl/I48hVfGRB4ds0YoZmo4vCaNgbEfPWJL0urTqjbnC/2ToFNb0O2isijsKTJRKiVrfhLCLJsTb47pF4zjqZdbnUluSb6hpFXS74a2VkQ16z+BzPnG92VvjPUpLsV4vKArlSeeTS0U5DiWANbX1bCjb5tOdev7DkFw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rSVEq1itYuVpR1l+wEnJ1TjLJLBddHYGvKoYS3lmTDd63YvECfLKh7Ge9P6LybfGDeAi9Op5YXaYoHqk5Y2Zy03PnVI6psoWhzgIm5GDs2shqZYTNBSqh9NvYHUliH4CqN+iVkqciJwkVEsEPDfrYPyWcLIVbR6PHCkNx6faVt0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQbv4SIbi/C49AEN2sL7yiJzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATQBPAE8ARABZAFwAYQBsAGEAbgAwMB4XDTI0MTAxNzA0MDAxN1oXDTI1MTAxNzEwMDAxN1owITEfMB0GA1UEAx4WAE0ATwBPAEQAWQBcAGEAbABhAG4AMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArSVEq1itYuVpR1l+wEnJ1TjLJLBddHYGvKoYS3lmTDd63YvECfLKh7Ge9P6LybfGDeAi9Op5YXaYoHqk5Y2Zy03PnVI6psoWhzgIm5GDs2shqZYTNBSqh9NvYHUliH4CqN+iVkqciJwkVEsEPDfrYPyWcLIVbR6PHCkNx6faVt0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQA3x9TNoAIeevIuCSrcWoELqujCw9vVYC/PsyKPSEhY0Gn1rmkEcBd4VDnXCNj7RFgqYgfsYLrBRL0jZONrlLYw4avgcik1F+4nsdvIKbgrOBgDqph7KJoWjV09/aieFIP/lMXVEWt1GkFu42tlfPf0+RGGZE8bYWEv7OOkelXh4A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

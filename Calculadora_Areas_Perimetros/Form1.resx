@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>¿Cuál es el área o superficie de un rectángulo? ¿Cómo calcular fácilmente el área del polígono regular?, etc…. Te surgirán estas y otras muchas dudas sobre geometría, ya sea de cómo calcular el área o superficie, incluso su formulación. En nuestra app podrás encontrar la respuesta a todas tus preguntas.</value>
+    <value>¿Cuál es el área o superficie de un rectángulo? ¿Cual es el área del polígono regular?, etc…. Te surgirán estas y otras muchas dudas sobre geometría. En nuestra app podrás encontrar la respuesta a todas tus preguntas.</value>
   </data>
 </root>

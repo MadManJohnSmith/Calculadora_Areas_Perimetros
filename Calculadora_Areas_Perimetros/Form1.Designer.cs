@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnHeptagon = new System.Windows.Forms.Button();
             this.btnTrapezoid = new System.Windows.Forms.Button();
             this.btnTriangle = new System.Windows.Forms.Button();
-            this.btnCircle = new System.Windows.Forms.Button();
             this.btnSquare = new System.Windows.Forms.Button();
+            this.btnCircle = new System.Windows.Forms.Button();
+            this.btnHeptagon = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
@@ -77,29 +77,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(135, 661);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // btnHeptagon
-            // 
-            this.btnHeptagon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnHeptagon.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnHeptagon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHeptagon.FlatAppearance.BorderSize = 0;
-            this.btnHeptagon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHeptagon.Font = new System.Drawing.Font("Product Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHeptagon.ForeColor = System.Drawing.Color.Teal;
-            this.btnHeptagon.Image = global::Calculadora_Areas_Perimetros.Properties.Resources.area_del_heptagono_100x98;
-            this.btnHeptagon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnHeptagon.Location = new System.Drawing.Point(0, 396);
-            this.btnHeptagon.Margin = new System.Windows.Forms.Padding(0);
-            this.btnHeptagon.Name = "btnHeptagon";
-            this.btnHeptagon.Size = new System.Drawing.Size(135, 132);
-            this.btnHeptagon.TabIndex = 4;
-            this.btnHeptagon.Text = "Heptágono";
-            this.btnHeptagon.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnHeptagon.UseVisualStyleBackColor = false;
-            this.btnHeptagon.Click += new System.EventHandler(this.btnHeptagon_Click);
             // 
             // btnTrapezoid
             // 
@@ -147,6 +124,29 @@
             this.btnTriangle.UseVisualStyleBackColor = false;
             this.btnTriangle.Click += new System.EventHandler(this.btnTriangle_Click);
             // 
+            // btnSquare
+            // 
+            this.btnSquare.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSquare.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSquare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSquare.FlatAppearance.BorderSize = 0;
+            this.btnSquare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSquare.Font = new System.Drawing.Font("Product Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSquare.ForeColor = System.Drawing.Color.Teal;
+            this.btnSquare.Image = global::Calculadora_Areas_Perimetros.Properties.Resources.area_del_cuadrado_100x100;
+            this.btnSquare.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSquare.Location = new System.Drawing.Point(0, 132);
+            this.btnSquare.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSquare.Name = "btnSquare";
+            this.btnSquare.Size = new System.Drawing.Size(135, 132);
+            this.btnSquare.TabIndex = 0;
+            this.btnSquare.Text = "Cuadrado";
+            this.btnSquare.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnSquare.UseVisualStyleBackColor = false;
+            this.btnSquare.Click += new System.EventHandler(this.btnSquare_Click);
+            // 
             // btnCircle
             // 
             this.btnCircle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -170,28 +170,28 @@
             this.btnCircle.UseVisualStyleBackColor = false;
             this.btnCircle.Click += new System.EventHandler(this.btnCircle_Click);
             // 
-            // btnSquare
+            // btnHeptagon
             // 
-            this.btnSquare.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.btnHeptagon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSquare.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSquare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSquare.FlatAppearance.BorderSize = 0;
-            this.btnSquare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSquare.Font = new System.Drawing.Font("Product Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSquare.ForeColor = System.Drawing.Color.Teal;
-            this.btnSquare.Image = global::Calculadora_Areas_Perimetros.Properties.Resources.area_del_cuadrado_100x100;
-            this.btnSquare.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSquare.Location = new System.Drawing.Point(0, 132);
-            this.btnSquare.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSquare.Name = "btnSquare";
-            this.btnSquare.Size = new System.Drawing.Size(135, 132);
-            this.btnSquare.TabIndex = 0;
-            this.btnSquare.Text = "Cuadrado";
-            this.btnSquare.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnSquare.UseVisualStyleBackColor = false;
-            this.btnSquare.Click += new System.EventHandler(this.btnSquare_Click);
+            this.btnHeptagon.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnHeptagon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnHeptagon.FlatAppearance.BorderSize = 0;
+            this.btnHeptagon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHeptagon.Font = new System.Drawing.Font("Product Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHeptagon.ForeColor = System.Drawing.Color.Teal;
+            this.btnHeptagon.Image = global::Calculadora_Areas_Perimetros.Properties.Resources.area_del_heptagono_100x98;
+            this.btnHeptagon.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnHeptagon.Location = new System.Drawing.Point(0, 396);
+            this.btnHeptagon.Margin = new System.Windows.Forms.Padding(0);
+            this.btnHeptagon.Name = "btnHeptagon";
+            this.btnHeptagon.Size = new System.Drawing.Size(135, 132);
+            this.btnHeptagon.TabIndex = 4;
+            this.btnHeptagon.Text = "Poligono Regular";
+            this.btnHeptagon.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnHeptagon.UseVisualStyleBackColor = false;
+            this.btnHeptagon.Click += new System.EventHandler(this.btnHeptagon_Click);
             // 
             // panel2
             // 

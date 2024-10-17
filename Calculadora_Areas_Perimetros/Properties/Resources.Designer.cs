@@ -63,6 +63,16 @@ namespace Calculadora_Areas_Perimetros.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3574480_200 {
+            get {
+                object obj = ResourceManager.GetObject("3574480-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap area_del_circulo_100x100 {
             get {
                 object obj = ResourceManager.GetObject("area-del-circulo-100x100", resourceCulture);

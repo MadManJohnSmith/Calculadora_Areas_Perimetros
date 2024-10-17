@@ -15,7 +15,7 @@ namespace Calculadora_Areas_Perimetros
     {
         NavigationControl navigationControl;
         NavigationButtons navigationButtons;
-        // Change the color of your buttons if you want
+        
         Color btnDefaultColor = Color.FromKnownColor(KnownColor.ControlLight);
         Color btnSelectedtColor = Color.FromKnownColor(KnownColor.ControlDark);
         public Form1()

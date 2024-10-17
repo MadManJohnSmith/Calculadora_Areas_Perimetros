@@ -9,8 +9,8 @@ namespace Calculadora_Areas_Perimetros
 {
     internal class NavigationControl
     {
-        List<UserControl> userControlList = new List<UserControl>();
-        Panel panel;
+        private List<UserControl> userControlList = new List<UserControl>();
+        private Panel panel;
 
         public NavigationControl(List<UserControl> userControlList, Panel panel)
         {
@@ -18,21 +18,35 @@ namespace Calculadora_Areas_Perimetros
             this.panel = panel;
             AddUserControls();
         }
+
         private void AddUserControls()
         {
-            for (int i = 0; i < userControlList.Count(); i++)
+            // Agrega cada UserControl al panel y lo oculta
+            foreach (var userControl in userControlList)
             {
-                userControlList[i].Dock = DockStyle.Fill;
-                panel.Controls.Add(userControlList[i]);
+                userControl.Dock = DockStyle.Fill;
+                panel.Controls.Add(userControl);
+                userControl.Visible = false; // Asegura que estén ocultos inicialmente
             }
         }
 
         public void Display(int index)
         {
-            if (index < userControlList.Count())
+            // Asegúrate de que el índice sea válido
+            if (index < 0 || index >= userControlList.Count)
             {
-                userControlList[index].BringToFront();
+                throw new ArgumentOutOfRangeException(nameof(index), "Índice fuera de rango.");
             }
+
+            // Oculta todos los UserControls
+            foreach (var userControl in userControlList)
+            {
+                userControl.Visible = false; // Oculta todos
+            }
+
+            // Muestra solo el UserControl seleccionado
+            userControlList[index].Visible = true;
+            userControlList[index].BringToFront(); // Lleva al frente el UserControl visible
         }
     }
 }

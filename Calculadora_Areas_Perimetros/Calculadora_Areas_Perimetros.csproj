@@ -12,10 +12,10 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>madmanjohnsmith.github.io/Calculadora_Areas_Perimetros/</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\MOODY\Users\alan0\Videos\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -23,9 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://madmanjohnsmith.github.io/Calculadora_Areas_Perimetros/Calculadora_Areas_Perimetros/madmanjohnsmith.github.io/Calculadora_Areas_Perimetros/</InstallUrl>
-    <UpdateUrl>https://madmanjohnsmith.github.io/Calculadora_Areas_Perimetros/Calculadora_Areas_Perimetros/madmanjohnsmith.github.io/Calculadora_Areas_Perimetros/</UpdateUrl>
-    <ApplicationRevision>1</ApplicationRevision>
+    <UpdateUrl>http://localhost/Calculadora_Areas_Perimetros/</UpdateUrl>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>

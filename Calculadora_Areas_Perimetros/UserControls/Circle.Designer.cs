@@ -74,6 +74,7 @@
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label13.Location = new System.Drawing.Point(256, 58);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(185, 26);
@@ -85,6 +86,7 @@
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("ROG Fonts", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label12.Location = new System.Drawing.Point(238, 14);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(218, 44);
@@ -128,6 +130,7 @@
             this.lblPerimetro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblPerimetro.AutoSize = true;
             this.lblPerimetro.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPerimetro.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblPerimetro.Location = new System.Drawing.Point(383, 335);
             this.lblPerimetro.Name = "lblPerimetro";
             this.lblPerimetro.Size = new System.Drawing.Size(98, 24);
@@ -139,6 +142,7 @@
             this.lblArea.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblArea.AutoSize = true;
             this.lblArea.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArea.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblArea.Location = new System.Drawing.Point(234, 335);
             this.lblArea.Name = "lblArea";
             this.lblArea.Size = new System.Drawing.Size(52, 24);
@@ -150,6 +154,7 @@
             this.lblDiametro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblDiametro.AutoSize = true;
             this.lblDiametro.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiametro.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblDiametro.Location = new System.Drawing.Point(384, 113);
             this.lblDiametro.Name = "lblDiametro";
             this.lblDiametro.Size = new System.Drawing.Size(87, 24);
@@ -161,6 +166,7 @@
             this.lblRadio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblRadio.AutoSize = true;
             this.lblRadio.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRadio.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblRadio.Location = new System.Drawing.Point(230, 113);
             this.lblRadio.Name = "lblRadio";
             this.lblRadio.Size = new System.Drawing.Size(57, 24);
@@ -182,6 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCalcular);

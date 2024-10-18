@@ -78,6 +78,7 @@
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label13.Location = new System.Drawing.Point(251, 58);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(185, 26);
@@ -89,6 +90,7 @@
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("ROG Fonts", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label12.Location = new System.Drawing.Point(215, 14);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(274, 44);
@@ -150,6 +152,7 @@
             this.lblPerimetro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblPerimetro.AutoSize = true;
             this.lblPerimetro.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPerimetro.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblPerimetro.Location = new System.Drawing.Point(383, 335);
             this.lblPerimetro.Name = "lblPerimetro";
             this.lblPerimetro.Size = new System.Drawing.Size(98, 24);
@@ -161,6 +164,7 @@
             this.lblArea.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblArea.AutoSize = true;
             this.lblArea.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArea.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblArea.Location = new System.Drawing.Point(234, 335);
             this.lblArea.Name = "lblArea";
             this.lblArea.Size = new System.Drawing.Size(52, 24);
@@ -172,6 +176,7 @@
             this.lblCirIns.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblCirIns.AutoSize = true;
             this.lblCirIns.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCirIns.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblCirIns.Location = new System.Drawing.Point(288, 116);
             this.lblCirIns.Name = "lblCirIns";
             this.lblCirIns.Size = new System.Drawing.Size(250, 24);
@@ -184,6 +189,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDiagonal.AutoSize = true;
             this.lblDiagonal.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiagonal.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblDiagonal.Location = new System.Drawing.Point(88, 180);
             this.lblDiagonal.Name = "lblDiagonal";
             this.lblDiagonal.Size = new System.Drawing.Size(83, 24);
@@ -196,6 +202,7 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblLado.AutoSize = true;
             this.lblLado.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLado.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblLado.Location = new System.Drawing.Point(83, 113);
             this.lblLado.Name = "lblLado";
             this.lblLado.Size = new System.Drawing.Size(51, 24);
@@ -207,6 +214,7 @@
             this.lblLadoC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblLadoC.AutoSize = true;
             this.lblLadoC.Font = new System.Drawing.Font("Product Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLadoC.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblLadoC.Location = new System.Drawing.Point(283, 180);
             this.lblLadoC.Name = "lblLadoC";
             this.lblLadoC.Size = new System.Drawing.Size(286, 24);
@@ -228,6 +236,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCalcular);

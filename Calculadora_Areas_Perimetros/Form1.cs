@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Calculadora_Areas_Perimetros
 {
-    public partial class Form1 : Form
+    public partial class AreasPerimetros : Form
     {
         NavigationControl navigationControl;
         NavigationButtons navigationButtons;
         
         Color btnDefaultColor = Color.FromKnownColor(KnownColor.ControlLight);
         Color btnSelectedtColor = Color.FromKnownColor(KnownColor.ControlDark);
-        public Form1()
+        public AreasPerimetros()
         {
             InitializeComponent();
             InitializeNavigationControl();
